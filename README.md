@@ -12,4 +12,4 @@ parser.y: The Bison (parser generator) definition file. It defines the grammar r
 
 inventory: A sample Ansible inventory file used as input for the parser. This file demonstrates the format and content that the parser is designed to handle.
 
-test: A shell script for testing purposes
+test.sh: A shell script for testing purposes.
