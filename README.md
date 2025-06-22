@@ -2,9 +2,11 @@ Ansible Inventory Parser
 A Flex and Bison-based parser that analyzes Ansible inventory files to count hosts and explore metaprogramming concepts.
 
 Project Goal
-The primary objective of this project was to gain a practical understanding of metaprogramming and Domain-Specific Languages (DSLs). This was achieved by developing a custom parser for Ansible inventory files. Specifically, the parser is designed to lexical analyze and syntax parse the inventory structure to identify and count the total number of hosts defined within these configuration files. This hands-on experience provides insight into how declarative configuration-as-code tools like Ansible interpret their input to manageinfrastructure.
+
+The primary objective of this project was to gain a practical understanding of metaprogramming and Domain-Specific Languages (DSLs). This was achieved by developing a custom parser for Ansible inventory files. Specifically, the parser is designed to lexical analyze and syntax parse the inventory structure to identify and count the total number of hosts defined within these configuration files. This hands-on experience provides insight into how declarative configuration-as-code tools like Ansible interpret their input to manage infrastructure.
 
 File Structure
+
 This project consists of the following files:
 
 lexer.l: The Flex (lexical analyzer) definition file. It contains the rules for breaking down the input Ansible inventory file into astream of tokens (e.g., keywords, hostnames, identifiers).
